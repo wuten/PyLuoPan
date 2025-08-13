@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>二十八星宿五行图 (稳定修复版)</name>
+    <description>采用五行配色，0度对齐正北，并标注星宿的五行/七曜属性。</description>
+
+    <Style id="style木">
+      <LineStyle><width>1.5</width><color>c0ffffff</color></LineStyle>
+      <PolyStyle><color>8078AB00</color></PolyStyle>
+    </Style>
+    <Style id="style火">
+      <LineStyle><width>1.5</width><color>c0ffffff</color></LineStyle>
+      <PolyStyle><color>801F25D9</color></PolyStyle>
+    </Style>
+    <Style id="style土">
+      <LineStyle><width>1.5</width><color>c0ffffff</color></LineStyle>
+      <PolyStyle><color>8000A5FF</color></PolyStyle>
+    </Style>
+    <Style id="style金">
+      <LineStyle><width>1.5</width><color>c0ffffff</color></LineStyle>
+      <PolyStyle><color>80E0E0E0</color></PolyStyle>
+    </Style>
+    <Style id="style水">
+      <LineStyle><width>1.5</width><color>c0ffffff</color></LineStyle>
+      <PolyStyle><color>80D07000</color></PolyStyle>
+    </Style>
+    <Style id="styleMansionLabel"><IconStyle><scale>0</scale></IconStyle><LabelStyle><color>ffffffff</color><scale>0.9</scale></LabelStyle></Style>
+    <Style id="styleAngleLabel"><IconStyle><scale>0</scale></IconStyle><LabelStyle><color>ff00ffff</color><scale>1.0</scale></LabelStyle></Style>
+    <Folder><name>星宿扇区 (五行)</name>
+      <Placemark>
+        <name>虚 (日)</name>
+        <styleUrl>#style火</styleUrl>
+        <Polygon><altitudeMode>clampToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>115.017837,37.230048,0 115.01783699999999,37.23013783152841,0 115.01783847681608,37.230137823832315,0 115.01783995337912,37.230137800745354,0 115.0178414294361,37.230137762271475,0 115.01784290473415,37.23013770841728,0 115.01784437902043,37.23013763919199,0 115.01784585204236,37.23013755460746,0 115.01784732354753,37.2301374546782,0 115.01784879328378,37.23013733942132,0 115.01785026099934,37.23013720885656,0 115.01785172644269,37.23013706300632,0 115.017837,37.230048,0</coordinates></LinearRing></outerBoundaryIs></Polygon>
+      </Placemark>
+      <Placemark>
+        <name>女 (土)</name>
+        <styleUrl>#style土</styleUrl>
+        <Polygon><altitudeMode>clampToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>115.017837,37.230048,0 115.01785172644269,37.23013706300632,0 115.01785464950873,37.230136725551915,0 115.01785756047869,37.23013632728939,0 115.01786045735743,37.23013586849167,0 115.01786333815964,37.23013534947321,0 115.01786620091093,37.23013477058973,0 115.01786904364931,37.23013413223793,0 115.0178718644265,37.230133434855354,0 115.01787466130926,37.23013267891992,0 115.01787743238073,37.23013186494973,0 115.01788017574181,37.23013099350264,0 115.017837,37.230048,0</coordinates></LinearRing></outerBoundaryIs></Polygon>
+      </Placemark>
+      <Placemark>
+        <name>牛 (金)</name>
+        <styleUrl>#style金</styleUrl>
+        <Polygon><altitudeMode>clampToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>115.017837,37.230048,0 115.01788017574181,37.23013099350264,0 115.01788288951228,37.23013006517587,0 115.01788557183228,37.2301290806057,0 115.01788822086345,37.230128040466866,0 115.0178908347903,37.230126945472236,0 115.01789341182136,37.230125796372285,0 115.01789595019042,37.230124593954535,0 115.0178984481579,37.23012333904308,0 115.01790090401171,37.23012203249796,0 115.0179033160688,37.23012067521463,0 115.01790568267602,37.230119268123296,0 115.017837,37.230048,0</coordinates></LinearRing></outerBoundaryIs></Polygon>
+      </Placemark>
+      <Placemark>
+        <name>斗 (木)</name>
+        <styleUrl>#style木</styleUrl>
+        <Polygon><altitudeMode>clampToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>115.017837,37.230048,0 115.01790568267602,37.230119268123296,0 115.01790800221141,37.230117812188325,0 115.01791027308532,37.23011630840753,0 115.0179124937414,37.23011475781155,0 115.01791466265769,37.23011316146306,0 115.01791677834774,37.23011152045615,0 115.01791883936154,37.230109835915464,0 115.0179208442866,37.23010810899552,0 115.01792279174883,37.230106340879864,0 115.01792468041354,37.230104532780274,0 115.01792650898636,37.230102685935925,0 115.017837,37.230048,0</coordinates></LinearRing></outerBoundaryIs></Polygon>
+      </Placemark>
+      <Placemark>
+        <name>箕 (水)</name>
+        <styleUrl>#style水</styleUrl>
+        <Polygon><altitudeMode>clampToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>115.017837,37.230048,0 115.01792650898636,37.230102685935925,0 115.01792827621405,37.230100801612565,0 115.01792998088546,37.23009888110161,0 115.01793162183226,37.23009692571931,0 115.01793319792988,37.230094936805756,0 115.01793470809812,37.23009291572407,0 115.017936151302,37.2300908638594,0 115.01793752655239,37.230088782618,0 115.0179388329068,37.23008667342622,0 115.0179400694699,37.23008453772965,0 115.01794123539425,37.230082376991945,0 115.017837,37.230048,0</coordinates></LinearRing></outerBoundaryIs></Polygon>
+      </Placemark>
+      <Placemark>
+        <name>尾 (火)</name>
+        <styleUrl>#style火</styleUrl>
+        <Polygon><altitudeMode>clampToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>115.017837,37.230048,0 115.01794123539425,37.230082376991945,0 115.01794232988077,37.230080192694004,0 115.01794335217936,37.23007798633281,0 115.0179443015894,37.23007575942051,0 115.01794517746018,37.23007351348331,0 115.01794597919148,37.230071250060476,0 115.01794670623379,37.230068970703236,0 115.0179473580889,37.23006667697376,0 115.01794793431002,37.23006437044405,0 115.01794843450224,37.23006205269489,0 115.01794885832278,37.230059725314746,0 115.017837,37.230048,0</coordinates></LinearRing></outerBoundaryIs></Polygon>
+      </Placemark>
+      <Placemark>
+        <name>心 (月)</name>
+        <styleUrl>#style火</styleUrl>
+        <Polygon><altitudeMode>clampToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>115.017837,37.230048,0 115.01794885832278,37.230059725314746,0 115.01794904150084,37.23005855851129,0 115.01794920548119,37.23005738989868,0 115.01794935023568,37.230056219677195,0 115.01794947573954,37.230055048047305,0 115.01794958197124,37.230053875209784,0 115.0179496689126,37.23005270136557,0 115.01794973654873,37.230051526715826,0 115.017949784868,37.23005035146179,0 115.01794981386219,37.23004917580487,0 115.0179498235263,37.230047999946486,0 115.017837,37.230048,0</coordinates></LinearRing></outerBoundaryIs></Polygon>
+      </Placemark>
+      <Placemark>
+        <name>房 (日)</name>
+        <styleUrl>#style火</styleUrl>
+        <Polygon><altitudeMode>clampToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>115.017837,37.230048,0 115.0179498235263,37.230047999946486,0 115.01794981385868,37.23004682408812,0 115.01794978486097,37.23004564843125,0 115.01794973653817,37.23004447317731,0 115.01794966889854,37.2300432985277,0 115.0179495819537,37.230042124683656,0 115.01794947571852,37.23004095184633,0 115.01794935021118,37.23003978021668,0 115.01794920545325,37.230038609995454,0 115.01794904146948,37.23003744138317,0 115.017948858288,37.23003627458005,0 115.017837,37.230048,0</coordinates></LinearRing></outerBoundaryIs></Polygon>
+      </Placemark>
+      <Placemark>
+        <name>氐 (土)</name>
+        <styleUrl>#style土</styleUrl>
+        <Polygon><altitudeMode>clampToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>115.017837,37.230048,0 115.017948858288,37.23003627458005,0 115.01794843446069,37.23003394720071,0 115.01794793426183,37.230031629452476,0 115.01794735803422,37.23002932292384,0 115.01794670617276,37.23002702919557,0 115.01794597912425,37.230024749839664,0 115.01794517738698,37.2300224864183,0 115.01794430151038,37.23002024048268,0 115.01794335209476,37.23001801357209,0 115.01794232979083,37.230015807212716,0 115.01794123529922,37.2300136229167,0 115.017837,37.230048,0</coordinates></LinearRing></outerBoundaryIs></Polygon>
+      </Placemark>
+      <Placemark>
+        <name>亢 (金)</name>
+        <styleUrl>#style金</styleUrl>
+        <Polygon><altitudeMode>clampToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>115.017837,37.230048,0 115.01794123529922,37.2300136229167,0 115.01794006937003,37.23001146218103,0 115.01793883280233,37.23000932648658,0 115.01793752644363,37.230007217297036,0 115.01793615118925,37.23000513605794,0 115.01793470798172,37.23000308419566,0 115.01793319781014,37.23000106311644,0 115.01793162170947,37.229999074205416,0 115.01792998075996,37.22999711882569,0 115.01792827608621,37.22999519831738,0 115.01792650885652,37.22999331399671,0 115.017837,37.230048,0</coordinates></LinearRing></outerBoundaryIs></Polygon>
+      </Placemark>
+      <Placemark>
+        <name>角 (木)</name>
+        <styleUrl>#style木</styleUrl>
+        <Polygon><altitudeMode>clampToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>115.017837,37.230048,0 115.01792650885652,37.22999331399671,0 115.01792468028208,37.22999146715509,0 115.01792279161606,37.22998965905825,0 115.01792084415291,37.22998789094537,0 115.01791883922729,37.229986164028226,0 115.0179167782133,37.22998447949034,0 115.01791466252345,37.22998283848623,0 115.01791249360772,37.22998124214053,0 115.01791027295258,37.22997969154733,0 115.01790800207995,37.22997818776929,0 115.01790568254617,37.22997673183704,0 115.017837,37.230048,0</coordinates></LinearRing></outerBoundaryIs></Polygon>
+      </Placemark>
+      <Placemark>
+        <name>轸 (水)</name>
+        <styleUrl>#style水</styleUrl>
+        <Polygon><altitudeMode>clampToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>115.017837,37.230048,0 115.01790568254617,37.22997673183704,0 115.01790331594096,37.229975324748395,0 115.01790090388623,37.2299739674677,0 115.0178984480351,37.22997266092518,0 115.01789595007068,37.22997140601625,0 115.01789341170495,37.229970203600956,0 115.01789083467757,37.229969054503385,0 115.01788822075471,37.22996795951107,0 115.01788557172782,37.22996691937446,0 115.01788288941239,37.229965934806415,0 115.01788017564678,37.229965006481684,0 115.017837,37.230048,0</coordinates></LinearRing></outerBoundaryIs></Polygon>
+      </Placemark>
+      <Placemark>
+        <name>翼 (火)</name>
+        <styleUrl>#style火</styleUrl>
+        <Polygon><altitudeMode>clampToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>115.017837,37.230048,0 115.01788017564678,37.229965006481684,0 115.01787743229082,37.22996413503652,0 115.01787466122465,37.229963321068155,0 115.01787186434748,37.22996256513442,0 115.01786904357611,37.22996186775343,0 115.01786620084374,37.2299612294031,0 115.01786333809864,37.22996065052096,0 115.01786045730277,37.229960131503695,0 115.01785756043053,37.229959672707054,0 115.01785464946721,37.22995927444546,0 115.01785172640787,37.229958936991856,0 115.017837,37.230048,0</coordinates></LinearRing></outerBoundaryIs></Polygon>
+      </Placemark>
+      <Placemark>
+        <name>张 (月)</name>
+        <styleUrl>#style火</styleUrl>
+        <Polygon><altitudeMode>clampToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>115.017837,37.230048,0 115.01785172640787,37.229958936991856,0 115.01785026096796,37.229958791141954,0 115.01784879325584,37.22995866057751,0 115.01784732352303,37.229958545320905,0 115.01784585202134,37.22995844539188,0 115.01784437900288,37.22995836080756,0 115.01784290472011,37.22995829158243,0 115.01784142942557,37.229958237728354,0 115.01783995337208,37.22995819925457,0 115.01783847681257,37.22995817616766,0 115.01783699999999,37.22995816847159,0 115.017837,37.230048,0</coordinates></LinearRing></outerBoundaryIs></Polygon>
+      </Placemark>
+      <Placemark>
+        <name>星 (日)</name>
+        <styleUrl>#style火</styleUrl>
+        <Polygon><altitudeMode>clampToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>115.017837,37.230048,0 115.01783699999999,37.22995816847159,0 115.01783552318741,37.22995817616766,0 115.01783404662791,37.22995819925457,0 115.01783257057441,37.229958237728354,0 115.01783109527987,37.22995829158243,0 115.0178296209971,37.22995836080756,0 115.01782814797865,37.22995844539188,0 115.01782667647696,37.229958545320905,0 115.01782520674413,37.22995866057751,0 115.01782373903202,37.229958791141954,0 115.01782227359212,37.229958936991856,0 115.017837,37.230048,0</coordinates></LinearRing></outerBoundaryIs></Polygon>
+      </Placemark>
+      <Placemark>
+        <name>柳 (土)</name>
+        <styleUrl>#style土</styleUrl>
+        <Polygon><altitudeMode>clampToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>115.017837,37.230048,0 115.01782227359212,37.229958936991856,0 115.01781935053278,37.22995927444546,0 115.01781643956946,37.229959672707054,0 115.0178135426972,37.229960131503695,0 115.01781066190135,37.22996065052096,0 115.01780779915624,37.2299612294031,0 115.01780495642387,37.22996186775343,0 115.0178021356525,37.22996256513442,0 115.01779933877533,37.229963321068155,0 115.01779656770917,37.22996413503652,0 115.0177938243532,37.229965006481684,0 115.017837,37.230048,0</coordinates></LinearRing></outerBoundaryIs></Polygon>
+      </Placemark>
+      <Placemark>
+        <name>鬼 (金)</name>
+        <styleUrl>#style金</styleUrl>
+        <Polygon><altitudeMode>clampToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>115.017837,37.230048,0 115.0177938243532,37.229965006481684,0 115.0177911105876,37.229965934806415,0 115.01778842827217,37.22996691937446,0 115.01778577924527,37.22996795951107,0 115.01778316532241,37.229969054503385,0 115.01778058829504,37.229970203600956,0 115.0177780499293,37.22997140601625,0 115.01777555196489,37.22997266092518,0 115.01777309611376,37.2299739674677,0 115.01777068405903,37.229975324748395,0 115.01776831745381,37.22997673183704,0 115.017837,37.230048,0</coordinates></LinearRing></outerBoundaryIs></Polygon>
+      </Placemark>
+      <Placemark>
+        <name>井 (木)</name>
+        <styleUrl>#style木</styleUrl>
+        <Polygon><altitudeMode>clampToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>115.017837,37.230048,0 115.01776831745381,37.22997673183704,0 115.01776599792004,37.22997818776929,0 115.0177637270474,37.22997969154733,0 115.01776150639226,37.22998124214053,0 115.01775933747653,37.22998283848623,0 115.01775722178668,37.22998447949034,0 115.0177551607727,37.229986164028226,0 115.01775315584707,37.22998789094537,0 115.01775120838393,37.22998965905825,0 115.01774931971791,37.22999146715509,0 115.01774749114347,37.22999331399671,0 115.017837,37.230048,0</coordinates></LinearRing></outerBoundaryIs></Polygon>
+      </Placemark>
+      <Placemark>
+        <name>参 (水)</name>
+        <styleUrl>#style水</styleUrl>
+        <Polygon><altitudeMode>clampToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>115.017837,37.230048,0 115.01774749114347,37.22999331399671,0 115.01774572391378,37.22999519831738,0 115.01774401924003,37.22999711882569,0 115.01774237829052,37.229999074205416,0 115.01774080218985,37.23000106311644,0 115.01773929201826,37.23000308419566,0 115.01773784881074,37.23000513605794,0 115.01773647355635,37.230007217297036,0 115.01773516719766,37.23000932648658,0 115.01773393062996,37.23001146218103,0 115.01773276470077,37.2300136229167,0 115.017837,37.230048,0</coordinates></LinearRing></outerBoundaryIs></Polygon>
+      </Placemark>
+      <Placemark>
+        <name>觜 (火)</name>
+        <styleUrl>#style火</styleUrl>
+        <Polygon><altitudeMode>clampToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>115.017837,37.230048,0 115.01773276470077,37.2300136229167,0 115.01773167020916,37.230015807212716,0 115.01773064790522,37.23001801357209,0 115.0177296984896,37.23002024048268,0 115.01772882261301,37.2300224864183,0 115.01772802087574,37.230024749839664,0 115.0177272938272,37.23002702919557,0 115.01772664196577,37.23002932292384,0 115.01772606573816,37.230031629452476,0 115.0177255655393,37.23003394720071,0 115.01772514171199,37.23003627458005,0 115.017837,37.230048,0</coordinates></LinearRing></outerBoundaryIs></Polygon>
+      </Placemark>
+      <Placemark>
+        <name>毕 (月)</name>
+        <styleUrl>#style火</styleUrl>
+        <Polygon><altitudeMode>clampToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>115.017837,37.230048,0 115.01772514171199,37.23003627458005,0 115.01772495853051,37.23003744138317,0 115.01772479454674,37.230038609995454,0 115.0177246497888,37.23003978021668,0 115.01772452428146,37.23004095184633,0 115.01772441804628,37.230042124683656,0 115.01772433110145,37.2300432985277,0 115.01772426346182,37.23004447317731,0 115.01772421513901,37.23004564843125,0 115.01772418614131,37.23004682408812,0 115.01772417647369,37.230047999946486,0 115.017837,37.230048,0</coordinates></LinearRing></outerBoundaryIs></Polygon>
+      </Placemark>
+      <Placemark>
+        <name>昴 (日)</name>
+        <styleUrl>#style火</styleUrl>
+        <Polygon><altitudeMode>clampToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>115.017837,37.230048,0 115.01772417647369,37.230047999946486,0 115.0177241861378,37.23004917580487,0 115.01772421513198,37.23005035146179,0 115.01772426345126,37.230051526715826,0 115.01772433108738,37.23005270136557,0 115.01772441802875,37.230053875209784,0 115.01772452426044,37.230055048047305,0 115.0177246497643,37.230056219677195,0 115.0177247945188,37.23005738989868,0 115.01772495849914,37.23005855851129,0 115.0177251416772,37.230059725314746,0 115.017837,37.230048,0</coordinates></LinearRing></outerBoundaryIs></Polygon>
+      </Placemark>
+      <Placemark>
+        <name>胃 (土)</name>
+        <styleUrl>#style土</styleUrl>
+        <Polygon><altitudeMode>clampToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>115.017837,37.230048,0 115.0177251416772,37.230059725314746,0 115.01772556549774,37.23006205269489,0 115.01772606568997,37.23006437044405,0 115.01772664191108,37.23006667697376,0 115.0177272937662,37.230068970703236,0 115.0177280208085,37.230071250060476,0 115.01772882253981,37.23007351348331,0 115.01772969841059,37.23007575942051,0 115.01773064782063,37.23007798633281,0 115.01773167011922,37.230080192694004,0 115.01773276460574,37.230082376991945,0 115.017837,37.230048,0</coordinates></LinearRing></outerBoundaryIs></Polygon>
+      </Placemark>
+      <Placemark>
+        <name>娄 (金)</name>
+        <styleUrl>#style金</styleUrl>
+        <Polygon><altitudeMode>clampToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>115.017837,37.230048,0 115.01773276460574,37.230082376991945,0 115.01773393053008,37.23008453772965,0 115.01773516709318,37.23008667342622,0 115.0177364734476,37.230088782618,0 115.01773784869799,37.2300908638594,0 115.01773929190186,37.23009291572407,0 115.01774080207011,37.230094936805756,0 115.01774237816772,37.23009692571931,0 115.01774401911453,37.23009888110161,0 115.01774572378594,37.230100801612565,0 115.01774749101362,37.230102685935925,0 115.017837,37.230048,0</coordinates></LinearRing></outerBoundaryIs></Polygon>
+      </Placemark>
+      <Placemark>
+        <name>奎 (木)</name>
+        <styleUrl>#style木</styleUrl>
+        <Polygon><altitudeMode>clampToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>115.017837,37.230048,0 115.01774749101362,37.230102685935925,0 115.01774931958643,37.230104532780274,0 115.01775120825116,37.230106340879864,0 115.01775315571338,37.23010810899552,0 115.01775516063844,37.230109835915464,0 115.01775722165225,37.23011152045615,0 115.01775933734228,37.23011316146306,0 115.01776150625858,37.23011475781155,0 115.01776372691465,37.23011630840753,0 115.01776599778856,37.230117812188325,0 115.01776831732397,37.230119268123296,0 115.017837,37.230048,0</coordinates></LinearRing></outerBoundaryIs></Polygon>
+      </Placemark>
+      <Placemark>
+        <name>壁 (水)</name>
+        <styleUrl>#style水</styleUrl>
+        <Polygon><altitudeMode>clampToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>115.017837,37.230048,0 115.01776831732397,37.230119268123296,0 115.01777068393119,37.23012067521463,0 115.01777309598828,37.23012203249796,0 115.01777555184209,37.23012333904308,0 115.01777804980956,37.230124593954535,0 115.01778058817862,37.230125796372285,0 115.01778316520969,37.230126945472236,0 115.01778577913653,37.230128040466866,0 115.0177884281677,37.2301290806057,0 115.0177911104877,37.23013006517587,0 115.01779382425818,37.23013099350264,0 115.017837,37.230048,0</coordinates></LinearRing></outerBoundaryIs></Polygon>
+      </Placemark>
+      <Placemark>
+        <name>室 (火)</name>
+        <styleUrl>#style火</styleUrl>
+        <Polygon><altitudeMode>clampToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>115.017837,37.230048,0 115.01779382425818,37.23013099350264,0 115.01779656761926,37.23013186494973,0 115.01779933869072,37.23013267891992,0 115.01780213557349,37.230133434855354,0 115.01780495635067,37.23013413223793,0 115.01780779908904,37.23013477058973,0 115.01781066184034,37.23013534947321,0 115.01781354264256,37.23013586849167,0 115.0178164395213,37.23013632728939,0 115.01781935049125,37.230136725551915,0 115.0178222735573,37.23013706300632,0 115.017837,37.230048,0</coordinates></LinearRing></outerBoundaryIs></Polygon>
+      </Placemark>
+      <Placemark>
+        <name>危 (月)</name>
+        <styleUrl>#style火</styleUrl>
+        <Polygon><altitudeMode>clampToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>115.017837,37.230048,0 115.0178222735573,37.23013706300632,0 115.01782373900065,37.23013720885656,0 115.0178252067162,37.23013733942132,0 115.01782667645246,37.2301374546782,0 115.01782814795763,37.23013755460746,0 115.01782962097955,37.23013763919199,0 115.01783109526582,37.23013770841728,0 115.01783257056387,37.230137762271475,0 115.01783404662086,37.230137800745354,0 115.0178355231839,37.230137823832315,0 115.01783699999999,37.23013783152841,0 115.017837,37.230048,0</coordinates></LinearRing></outerBoundaryIs></Polygon>
+      </Placemark>
+    </Folder>
+    <Folder><name>星宿名称</name>
+      <Placemark><name>虚
+(日)</name><styleUrl>#styleMansionLabel</styleUrl><Point><altitudeMode>clampToGround</altitudeMode><coordinates>115.01784216531247,37.23011074743444,0</coordinates></Point></Placemark>
+      <Placemark><name>女
+(土)</name><styleUrl>#styleMansionLabel</styleUrl><Point><altitudeMode>clampToGround</altitudeMode><coordinates>115.0178574406306,37.23010873941355,0</coordinates></Point></Placemark>
+      <Placemark><name>牛
+(金)</name><styleUrl>#styleMansionLabel</styleUrl><Point><altitudeMode>clampToGround</altitudeMode><coordinates>115.01787648826271,37.2301024574634,0</coordinates></Point></Placemark>
+      <Placemark><name>斗
+(木)</name><styleUrl>#styleMansionLabel</styleUrl><Point><altitudeMode>clampToGround</altitudeMode><coordinates>115.01789284482929,37.23009246432492,0</coordinates></Point></Placemark>
+      <Placemark><name>箕
+(水)</name><styleUrl>#styleMansionLabel</styleUrl><Point><altitudeMode>clampToGround</altitudeMode><coordinates>115.01790539565646,37.23007944101528,0</coordinates></Point></Placemark>
+      <Placemark><name>尾
+(火)</name><styleUrl>#styleMansionLabel</styleUrl><Point><altitudeMode>clampToGround</altitudeMode><coordinates>115.01791328542696,37.23006427505282,0</coordinates></Point></Placemark>
+      <Placemark><name>心
+(月)</name><styleUrl>#styleMansionLabel</styleUrl><Point><altitudeMode>clampToGround</altitudeMode><coordinates>115.01791580737803,37.230052112658036,0</coordinates></Point></Placemark>
+      <Placemark><name>房
+(日)</name><styleUrl>#styleMansionLabel</styleUrl><Point><altitudeMode>clampToGround</altitudeMode><coordinates>115.01791580736942,37.230043887289746,0</coordinates></Point></Placemark>
+      <Placemark><name>氐
+(土)</name><styleUrl>#styleMansionLabel</styleUrl><Point><altitudeMode>clampToGround</altitudeMode><coordinates>115.01791328539403,37.230031724898254,0</coordinates></Point></Placemark>
+      <Placemark><name>亢
+(金)</name><styleUrl>#styleMansionLabel</styleUrl><Point><altitudeMode>clampToGround</altitudeMode><coordinates>115.01790539559943,37.230016558945394,0</coordinates></Point></Placemark>
+      <Placemark><name>角
+(木)</name><styleUrl>#styleMansionLabel</styleUrl><Point><altitudeMode>clampToGround</altitudeMode><coordinates>115.01789284476342,37.23000353564886,0</coordinates></Point></Placemark>
+      <Placemark><name>轸
+(水)</name><styleUrl>#styleMansionLabel</styleUrl><Point><altitudeMode>clampToGround</altitudeMode><coordinates>115.01787648820567,37.22999354252348,0</coordinates></Point></Placemark>
+      <Placemark><name>翼
+(火)</name><styleUrl>#styleMansionLabel</styleUrl><Point><altitudeMode>clampToGround</altitudeMode><coordinates>115.01785744059765,37.229987260582924,0</coordinates></Point></Placemark>
+      <Placemark><name>张
+(月)</name><styleUrl>#styleMansionLabel</styleUrl><Point><altitudeMode>clampToGround</altitudeMode><coordinates>115.01784216530388,37.22998525256534,0</coordinates></Point></Placemark>
+      <Placemark><name>星
+(日)</name><styleUrl>#styleMansionLabel</styleUrl><Point><altitudeMode>clampToGround</altitudeMode><coordinates>115.01783183469611,37.22998525256534,0</coordinates></Point></Placemark>
+      <Placemark><name>柳
+(土)</name><styleUrl>#styleMansionLabel</styleUrl><Point><altitudeMode>clampToGround</altitudeMode><coordinates>115.01781655940233,37.229987260582924,0</coordinates></Point></Placemark>
+      <Placemark><name>鬼
+(金)</name><styleUrl>#styleMansionLabel</styleUrl><Point><altitudeMode>clampToGround</altitudeMode><coordinates>115.01779751179431,37.22999354252348,0</coordinates></Point></Placemark>
+      <Placemark><name>井
+(木)</name><styleUrl>#styleMansionLabel</styleUrl><Point><altitudeMode>clampToGround</altitudeMode><coordinates>115.01778115523656,37.23000353564886,0</coordinates></Point></Placemark>
+      <Placemark><name>参
+(水)</name><styleUrl>#styleMansionLabel</styleUrl><Point><altitudeMode>clampToGround</altitudeMode><coordinates>115.01776860440054,37.230016558945394,0</coordinates></Point></Placemark>
+      <Placemark><name>觜
+(火)</name><styleUrl>#styleMansionLabel</styleUrl><Point><altitudeMode>clampToGround</altitudeMode><coordinates>115.01776071460596,37.230031724898254,0</coordinates></Point></Placemark>
+      <Placemark><name>毕
+(月)</name><styleUrl>#styleMansionLabel</styleUrl><Point><altitudeMode>clampToGround</altitudeMode><coordinates>115.01775819263057,37.230043887289746,0</coordinates></Point></Placemark>
+      <Placemark><name>昴
+(日)</name><styleUrl>#styleMansionLabel</styleUrl><Point><altitudeMode>clampToGround</altitudeMode><coordinates>115.01775819262195,37.230052112658036,0</coordinates></Point></Placemark>
+      <Placemark><name>胃
+(土)</name><styleUrl>#styleMansionLabel</styleUrl><Point><altitudeMode>clampToGround</altitudeMode><coordinates>115.01776071457303,37.23006427505282,0</coordinates></Point></Placemark>
+      <Placemark><name>娄
+(金)</name><styleUrl>#styleMansionLabel</styleUrl><Point><altitudeMode>clampToGround</altitudeMode><coordinates>115.01776860434353,37.23007944101528,0</coordinates></Point></Placemark>
+      <Placemark><name>奎
+(木)</name><styleUrl>#styleMansionLabel</styleUrl><Point><altitudeMode>clampToGround</altitudeMode><coordinates>115.01778115517068,37.23009246432492,0</coordinates></Point></Placemark>
+      <Placemark><name>壁
+(水)</name><styleUrl>#styleMansionLabel</styleUrl><Point><altitudeMode>clampToGround</altitudeMode><coordinates>115.01779751173727,37.2301024574634,0</coordinates></Point></Placemark>
+      <Placemark><name>室
+(火)</name><styleUrl>#styleMansionLabel</styleUrl><Point><altitudeMode>clampToGround</altitudeMode><coordinates>115.01781655936938,37.23010873941355,0</coordinates></Point></Placemark>
+      <Placemark><name>危
+(月)</name><styleUrl>#styleMansionLabel</styleUrl><Point><altitudeMode>clampToGround</altitudeMode><coordinates>115.01783183468751,37.23011074743444,0</coordinates></Point></Placemark>
+    </Folder>
+    <Folder><name>外部角度环</name>
+      <Placemark><name>0°</name><styleUrl>#styleAngleLabel</styleUrl><Point><altitudeMode>clampToGround</altitudeMode><coordinates>115.01783699999999,37.23015130625767,0</coordinates></Point></Placemark>
+      <Placemark><name>15°</name><styleUrl>#styleAngleLabel</styleUrl><Point><altitudeMode>clampToGround</altitudeMode><coordinates>115.01787058105337,37.23014778617756,0</coordinates></Point></Placemark>
+      <Placemark><name>30°</name><styleUrl>#styleAngleLabel</styleUrl><Point><altitudeMode>clampToGround</altitudeMode><coordinates>115.0179018736046,37.23013746582582,0</coordinates></Point></Placemark>
+      <Placemark><name>45°</name><styleUrl>#styleAngleLabel</styleUrl><Point><altitudeMode>clampToGround</altitudeMode><coordinates>115.01792874511149,37.230121048519955,0</coordinates></Point></Placemark>
+      <Placemark><name>60°</name><styleUrl>#styleAngleLabel</styleUrl><Point><altitudeMode>clampToGround</altitudeMode><coordinates>115.01794936432287,37.230099653075754,0</coordinates></Point></Placemark>
+      <Placemark><name>75°</name><styleUrl>#styleAngleLabel</styleUrl><Point><altitudeMode>clampToGround</altitudeMode><coordinates>115.01796232607599,37.23007473756093,0</coordinates></Point></Placemark>
+      <Placemark><name>90°</name><styleUrl>#styleAngleLabel</styleUrl><Point><altitudeMode>clampToGround</altitudeMode><coordinates>115.01796674705524,37.23004799992923,0</coordinates></Point></Placemark>
+      <Placemark><name>105°</name><styleUrl>#styleAngleLabel</styleUrl><Point><altitudeMode>clampToGround</altitudeMode><coordinates>115.01796232598711,37.230021262307005,0</coordinates></Point></Placemark>
+      <Placemark><name>120°</name><styleUrl>#styleAngleLabel</styleUrl><Point><altitudeMode>clampToGround</altitudeMode><coordinates>115.01794936416893,37.22999634681808,0</coordinates></Point></Placemark>
+      <Placemark><name>135°</name><styleUrl>#styleAngleLabel</styleUrl><Point><altitudeMode>clampToGround</altitudeMode><coordinates>115.01792874493371,37.229974951409275,0</coordinates></Point></Placemark>
+      <Placemark><name>150°</name><styleUrl>#styleAngleLabel</styleUrl><Point><altitudeMode>clampToGround</altitudeMode><coordinates>115.01790187345064,37.22995853413879,0</coordinates></Point></Placemark>
+      <Placemark><name>165°</name><styleUrl>#styleAngleLabel</styleUrl><Point><altitudeMode>clampToGround</altitudeMode><coordinates>115.01787058096448,37.22994821381295,0</coordinates></Point></Placemark>
+      <Placemark><name>180°</name><styleUrl>#styleAngleLabel</styleUrl><Point><altitudeMode>clampToGround</altitudeMode><coordinates>115.01783699999999,37.229944693742326,0</coordinates></Point></Placemark>
+      <Placemark><name>195°</name><styleUrl>#styleAngleLabel</styleUrl><Point><altitudeMode>clampToGround</altitudeMode><coordinates>115.01780341903549,37.22994821381295,0</coordinates></Point></Placemark>
+      <Placemark><name>210°</name><styleUrl>#styleAngleLabel</styleUrl><Point><altitudeMode>clampToGround</altitudeMode><coordinates>115.01777212654935,37.22995853413879,0</coordinates></Point></Placemark>
+      <Placemark><name>225°</name><styleUrl>#styleAngleLabel</styleUrl><Point><altitudeMode>clampToGround</altitudeMode><coordinates>115.01774525506627,37.229974951409275,0</coordinates></Point></Placemark>
+      <Placemark><name>240°</name><styleUrl>#styleAngleLabel</styleUrl><Point><altitudeMode>clampToGround</altitudeMode><coordinates>115.01772463583104,37.22999634681808,0</coordinates></Point></Placemark>
+      <Placemark><name>255°</name><styleUrl>#styleAngleLabel</styleUrl><Point><altitudeMode>clampToGround</altitudeMode><coordinates>115.01771167401287,37.230021262307005,0</coordinates></Point></Placemark>
+      <Placemark><name>270°</name><styleUrl>#styleAngleLabel</styleUrl><Point><altitudeMode>clampToGround</altitudeMode><coordinates>115.01770725294475,37.23004799992923,0</coordinates></Point></Placemark>
+      <Placemark><name>285°</name><styleUrl>#styleAngleLabel</styleUrl><Point><altitudeMode>clampToGround</altitudeMode><coordinates>115.017711673924,37.23007473756093,0</coordinates></Point></Placemark>
+      <Placemark><name>300°</name><styleUrl>#styleAngleLabel</styleUrl><Point><altitudeMode>clampToGround</altitudeMode><coordinates>115.01772463567711,37.230099653075754,0</coordinates></Point></Placemark>
+      <Placemark><name>315°</name><styleUrl>#styleAngleLabel</styleUrl><Point><altitudeMode>clampToGround</altitudeMode><coordinates>115.0177452548885,37.230121048519955,0</coordinates></Point></Placemark>
+      <Placemark><name>330°</name><styleUrl>#styleAngleLabel</styleUrl><Point><altitudeMode>clampToGround</altitudeMode><coordinates>115.01777212639539,37.23013746582582,0</coordinates></Point></Placemark>
+      <Placemark><name>345°</name><styleUrl>#styleAngleLabel</styleUrl><Point><altitudeMode>clampToGround</altitudeMode><coordinates>115.01780341894661,37.23014778617756,0</coordinates></Point></Placemark>
+    </Folder>
+  </Document>
+</kml>
